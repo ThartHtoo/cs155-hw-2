@@ -1,0 +1,38 @@
+Return-Path: <tharthtoo@u.boisestate.edu>
+Received: from codespaces-6092c8.crtythgi42he1kogjsmmtjlj4b.xx.internal.cloudapp.net ([51.143.4.80])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-2dd6ee7c007sm8417123a91.9.2024.09.22.20.12.14
+        for <tharthtoo@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 22 Sep 2024 20:12:15 -0700 (PDT)
+From: ThartHtoo <tharthtoo@u.boisestate.edu>
+To: tharthtoo@u.boisestate.edu
+Subject: [PATCH] Submit project
+Date: Mon, 23 Sep 2024 03:12:08 +0000
+Message-ID: <20240923031208.14696-1-tharthtoo@u.boisestate.edu>
+X-Mailer: git-send-email 2.46.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..e66c1e8
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++My Name
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..17d07af
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Mon Sep 23 02:57:25 UTC 2024
+-- 
+2.46.0
